@@ -1,0 +1,174 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #202938;
+}
+
+/* MENU */
+
+.navbar {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+}
+
+/* CAPA */
+
+.hero {
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    padding: 120px 20px 80px;
+    background: linear-gradient(
+        135deg,
+        #101c32,
+        #1554a0
+    );
+}
+
+.hero p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CARTÕES */
+
+.card {
+    border: 1px solid #e5e9ef;
+    border-radius: 14px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* IDENTIFICAÇÃO DAS TECNOLOGIAS */
+
+.tech-icon {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.html-icon {
+    background-color: #fff0e7;
+    color: #c64b16;
+}
+
+.css-icon {
+    background-color: #e5f0ff;
+    color: #1557b0;
+}
+
+.js-icon {
+    background-color: #fff4b8;
+    color: #6e5500;
+}
+
+/* EXEMPLOS DE CÓDIGO */
+
+pre {
+    background-color: #172235;
+    color: #e5edf8;
+    padding: 18px;
+    border-radius: 9px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+/* BOOTSTRAP */
+
+.descricao {
+    max-width: 750px;
+    line-height: 1.8;
+}
+
+.meu-botao {
+    background-color: #643acb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.meu-botao:hover {
+    background-color: #4d2b9c;
+}
+
+/* QUIZ */
+
+.quiz-card {
+    max-width: 720px;
+}
+
+.opcao-quiz {
+    text-align: left;
+    padding: 13px 18px;
+    border-radius: 8px;
+}
+
+.opcao-quiz:disabled {
+    opacity: 1;
+}
+
+.opcao-correta {
+    background-color: #d1e7dd !important;
+    border-color: #198754 !important;
+    color: #0f5132 !important;
+}
+
+.opcao-errada {
+    background-color: #f8d7da !important;
+    border-color: #dc3545 !important;
+    color: #842029 !important;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 400px;
+        padding: 110px 15px 65px;
+    }
+
+    .hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}
