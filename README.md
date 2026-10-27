@@ -84,4 +84,75 @@ Depois:
 3. Selecione **Open with Live Server**.
 4. O site será aberto automaticamente no navegador.
 
-Também é possível abrir diretamente o arquivo `index.html` no navegador
+Também é possível abrir diretamente o arquivo `index.html` no navegador.
+
+## Como funciona o quiz
+
+O quiz foi desenvolvido utilizando JavaScript e possui cinco perguntas sobre HTML, CSS, JavaScript e Bootstrap.
+
+O funcionamento segue estas etapas:
+
+1. O sistema apresenta uma pergunta e quatro alternativas.
+2. O aluno seleciona uma resposta.
+3. O sistema verifica se a alternativa está correta.
+4. A resposta correta é destacada.
+5. O aluno avança para a próxima pergunta.
+6. Ao finalizar, o sistema apresenta a pontuação obtida.
+
+O quiz pode ser reiniciado para que o aluno tente novamente.
+
+As respostas são verificadas diretamente no navegador, sem necessidade de backend ou banco de dados.
+
+## Objetivos de aprendizagem
+
+Ao estudar o projeto, o aluno poderá:
+
+- Compreender a estrutura básica de uma página HTML.
+- Aprender a utilizar seletores e propriedades CSS.
+- Entender a importância do JavaScript para a interatividade.
+- Conhecer as principais classes do Bootstrap.
+- Trabalhar com arquivos separados de HTML, CSS e JavaScript.
+- Compreender a criação de interfaces responsivas.
+- Praticar lógica de programação com um quiz interativo.
+
+## Sugestões de atividades práticas
+
+**Atividade 1 — HTML**
+
+Modificar o título principal do site e adicionar um novo parágrafo explicativo.
+
+**Atividade 2 — CSS**
+
+Alterar as cores do cabeçalho e personalizar a aparência dos cartões.
+
+**Atividade 3 — JavaScript**
+
+Adicionar uma nova pergunta ao quiz e verificar seu funcionamento.
+
+**Atividade 4 — Bootstrap**
+
+Experimentar diferentes classes de botões, como `btn-primary`, `btn-success` e `btn-danger`.
+
+**Atividade 5 — Projeto completo**
+
+Criar uma nova seção educativa explicando outra tecnologia utilizada no desenvolvimento web.
+
+## Possíveis melhorias futuras
+
+- Adicionar mais perguntas ao quiz.
+- Criar níveis de dificuldade.
+- Implementar um sistema de cadastro e login.
+- Integrar um banco de dados para armazenar pontuações.
+- Desenvolver um ranking de alunos.
+- Adicionar exercícios práticos de programação.
+- Criar novas páginas com conteúdos mais avançados.
+
+## Finalidade
+
+Este projeto possui finalidade **educacional** e foi desenvolvido para apoiar o ensino dos fundamentos de desenvolvimento web.
+
+Não utiliza backend ou banco de dados na versão atual.
+
+---
+
+**Web Academy — Aprendendo desenvolvimento web na prática.**
